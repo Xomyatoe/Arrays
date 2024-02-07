@@ -18,12 +18,12 @@ void main()
 	const int SIZE = 5;
 	int i, m[SIZE]; // ќбъ€вл€ем целочисленную переменную и один массив.
 
-	for (i = 0; i < 5; i++)
+	for (i = 0; i < SIZE; i++)
 	{
 		cin >> m[i]; // ¬водим с клавиатуры значение €чейки массива
 	}
 
-	for (i = 0; i < 5; i++)
+	for (i = 0; i < SIZE; i++)
 	{
 		cout << "m[" << i << "]= " << m[i] << "\n";
 	}
@@ -36,18 +36,18 @@ void main()
 	cout << endl;
 	///
 	int sum = 0;
-	for ( i = 0; i < 5; i++)
+	for ( i = 0; i < SIZE; i++)
 	{
   sum = sum + m[i];
 	}
 	cout <<"—умма массивов = " << sum;
 	cout << endl;
 	int sum1 = 0;
-	for (i = 0; i < 5; i++)
+	for (i = 0; i < SIZE; i++)
 	{
 		sum1 = sum1 + m[i];
 	}
-	cout << "—реднее арифметическое элементов массива = " << sum / 5;
+	cout << "—реднее арифметическое элементов массива = " << sum / SIZE;
 	cout << endl;
 	int max_el = m[0];
 	int min_el = m[0];
